@@ -1,0 +1,78 @@
+/* Extensão: Live Server */
+
+#app {
+  height: 100vh;
+
+  display: flex;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* 
+
+  flex-direction: {
+    default: row
+    Obs: o valor dessa propriedade inverte a lógica entre 'align-items' e 
+    'justify-content'.
+  }
+
+  align-items: {
+    Uso: Alinha o conteudo verticalmente.
+  }
+
+  justify-content: {
+    Uso: Alinha o conteudo horizontalmente.
+    space-between -> espaço igual entre os elementos.
+    space-around -> o mesmo que o space-between mas com uma pequena "margem" no 
+      inicio e no fim.
+    space-evenly -> o mesmo que o space-around mas a "margem" tem o mesmo 
+      tamanho que o espaço entre os elementos.
+  }
+
+  flex-grow: {
+    default: 0
+    Uso: Se valor '1' a largura do elemento preenche toda a largura disponivel 
+    do elemento pai.
+  }
+
+  flex-shrink: {
+    default: 1
+    Uso: Se valor '1' permite que o elemento seja espremido para caber no 
+    elemento pai.
+  }
+
+  flex: {
+    ex: flex: 1 0
+    - Junção entre as propriedades 'flex-grow' e 'flex-shrink', sendo o primeiro 
+    valor da propriedade 'flex-grow' e o segundo da 'flex-shrink'.
+  }
+
+  flex-wrap: {
+    - Permite a quebra de linha dos elementos.
+  }
+
+  align-content: {
+    - Alinha os elementos quando eles estão mais de uma linha com o 'flex-wrap'.
+  }
+
+  order: {
+    - Troca a ordem dos elementos.
+  }
+
+*/
